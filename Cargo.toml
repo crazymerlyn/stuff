@@ -1,0 +1,11 @@
+[package]
+authors = ["CrazyMerlyn <crazy.d.merlyn@gmail.com>"]
+name = "stuff"
+version = "0.1.0"
+
+[[bin]]
+name = "game_of_life"
+path = "src/game_of_life.rs"
+
+[dependencies]
+rand = "0.3.15"
